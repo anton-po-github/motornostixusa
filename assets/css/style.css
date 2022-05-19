@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: 3px;
   padding-left: 10px;
-  /* border-left: 4px solid #18d26e; */
+  border-left: 4px solid #FFE950;
 }
 #header .logo a {
   color: #fff;
@@ -1726,7 +1726,7 @@ section {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
-  border-left: 4px solid #18d26e;
+  border-left: 4px solid #FFE950;
 }
 #footer .footer-top .footer-info p {
   font-size: 14px;
