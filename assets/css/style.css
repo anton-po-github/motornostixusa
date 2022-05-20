@@ -922,7 +922,7 @@ section {
 #facts {
   background: url("../img/facts-bg.jpg") center top no-repeat fixed;
   background-size: cover;
-  padding: 60px 0 0 0;
+  padding: 120px 0 120px 0;
   position: relative;
 }
 
