@@ -846,25 +846,25 @@ section {
   margin-bottom: 0;
 }
 
-/* Call To Action Section
+/* Installation Section
 --------------------------------*/
-#call-to-action {
+#installation {
   background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding: 30px 0;
 }
 
-#call-to-action h3 {
+#installation h3 {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
 }
 
-#call-to-action p {
+#installation p {
   color: #fff;
 }
 
-#call-to-action .cta-btn {
+#installation .cta-btn {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -879,13 +879,13 @@ section {
   color: #fff;
 }
 
-#call-to-action .cta-btn:hover {
+#installation .cta-btn:hover {
   background: #FFE950;
   border: 2px solid #FFE950;
   color: #000;
 }
 
-/* Call To Action Section
+/* Installation Section
 --------------------------------*/
 #skills {
   padding: 30px 0;
@@ -945,7 +945,7 @@ section {
 #facts .counters span {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 43px;
   display: block;
   color: #FFE950;
 }
@@ -1188,7 +1188,7 @@ section {
 }
 
 #clients img {
-  opacity: 0.5;
+  /* opacity: 0.5; */
   transition: 0.3s;
 }
 
@@ -2255,4 +2255,13 @@ section {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+}
+
+.disable-text-selection {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
