@@ -875,8 +875,8 @@ section {
   border-radius: 25px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #FFE950;
+  color: #FFE950;
 }
 
 #installation .cta-btn:hover {
