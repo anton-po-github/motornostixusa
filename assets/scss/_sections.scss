@@ -45,7 +45,6 @@ section {
     padding-bottom: 30px;
     color: #333;
   }
-
 }
 
 /* Section with background
@@ -85,14 +84,13 @@ section {
       display: inline-block;
       padding-right: 10px;
       color: #6c757d;
-      content: "/";
+      content: '/';
     }
   }
 
   @media (max-width: 768px) {
     .d-flex {
       display: block !important;
-
     }
 
     ol {
@@ -100,7 +98,6 @@ section {
       li {
         display: inline-block;
       }
-
     }
   }
 }
@@ -115,7 +112,12 @@ section {
   }
 
   .box-bg {
-    background-image: linear-gradient(0deg,#000000 0%,#242323 50%,#000000 100%);
+    background-image: linear-gradient(
+      0deg,
+      #000000 0%,
+      #242323 50%,
+      #000000 100%
+    );
   }
 
   i {
@@ -135,7 +137,6 @@ section {
         color: $primary;
       }
     }
-
   }
 
   p {
@@ -173,7 +174,7 @@ section {
   .about-col {
     background: #fff;
     border-radius: 0 0 4px 4px;
-    box-shadow: 0px 2px 12px rgba(0,0,0,.08);
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
     margin-bottom: 20px;
 
     .img {
@@ -188,10 +189,10 @@ section {
       height: 64px;
       text-align: center;
       position: absolute;
-      background-color: $primary;;
+      background-color: $primary;
       border-radius: 50%;
       border: 4px solid #fff;
-      left: calc( 50% - 32px);
+      left: calc(50% - 32px);
       bottom: -30px;
       transition: 0.3s;
       display: flex;
@@ -239,7 +240,6 @@ section {
       padding: 0 20px 20px 20px;
     }
   }
-
 }
 
 /* Services Section
@@ -262,7 +262,6 @@ section {
       line-height: 0;
       transition: 0.5s;
     }
-
   }
 
   .title {
@@ -287,11 +286,11 @@ section {
   }
 }
 
-
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0 ,0 , .1)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding: 60px 0;
 
@@ -351,10 +350,9 @@ section {
   .progress-bar {
     width: 1px;
     text-align: left;
-    transition: .9s;
+    transition: 0.9s;
   }
 }
-
 
 /* Facts Section
 --------------------------------*/
@@ -402,7 +400,6 @@ section {
     text-align: center;
     padding-top: 30px;
   }
-
 }
 
 /* Portfolio Section
@@ -411,28 +408,29 @@ section {
   padding: 60px 0;
 
   #portfolio-flters {
-    padding:0;
-    margin:5px 0 35px 0;
-    list-style:none;
-    text-align:center;
+    padding: 0;
+    margin: 5px 0 35px 0;
+    list-style: none;
+    text-align: center;
 
     li {
       cursor: pointer;
-      margin:15px 15px 15px 0;
-      display:inline-block;
-      padding:10px 20px;
-      font-size:12px;
-      line-height:20px;
+      margin: 15px 15px 15px 0;
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 12px;
+      line-height: 20px;
       color: $default;
-      border-radius:4px;
-      text-transform:uppercase;
-      background:#fff;
-      margin-bottom:5px;
-      transition:all 0.3s ease-in-out;
+      border-radius: 4px;
+      text-transform: uppercase;
+      background: #fff;
+      margin-bottom: 5px;
+      transition: all 0.3s ease-in-out;
 
-      &:hover, &.filter-active {
+      &:hover,
+      &.filter-active {
         background: $primary;
-        color:#fff;
+        color: #fff;
       }
 
       &:last-child {
@@ -442,10 +440,10 @@ section {
   }
 
   .portfolio-wrap {
-    box-shadow: 0px 2px 12px rgba(0,0,0,.08);
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
     transition: 0.3s;
     &:hover {
-      box-shadow: 0px 4px 14px rgba(0,0,0,.16);
+      box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
     }
   }
 
@@ -469,7 +467,8 @@ section {
         }
       }
 
-      .link-preview, .link-details {
+      .link-preview,
+      .link-details {
         position: absolute;
         display: inline-flex;
         align-items: center;
@@ -506,7 +505,6 @@ section {
       }
 
       &:hover {
-
         .link-preview {
           opacity: 1;
           left: calc(50% - 44px);
@@ -548,7 +546,6 @@ section {
         text-transform: uppercase;
       }
     }
-
   }
 }
 
@@ -556,7 +553,6 @@ section {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
-
   padding-top: 40px;
 
   .portfolio-details-slider {
@@ -579,7 +575,6 @@ section {
         background-color: $primary;
       }
     }
-
   }
 
   .portfolio-info {
@@ -599,16 +594,15 @@ section {
       padding: 0;
       font-size: 15px;
 
-      li +li {
+      li + li {
         margin-top: 10px;
       }
     }
-    
   }
 
   .portfolio-description {
     padding-top: 30px;
-    
+
     h2 {
       font-size: 26px;
       font-weight: 700;
@@ -619,7 +613,6 @@ section {
       padding: 0;
     }
   }
-
 }
 
 /* Clients Section
@@ -638,7 +631,7 @@ section {
   .swiper-pagination {
     margin-top: 30px;
     position: relative;
-  
+
     .swiper-pagination-bullet {
       width: 12px;
       height: 12px;
@@ -646,7 +639,7 @@ section {
       opacity: 1;
       border: 1px solid $primary;
     }
-  
+
     .swiper-pagination-bullet-active {
       background-color: $primary;
     }
@@ -662,7 +655,8 @@ section {
     margin-bottom: 40px;
   }
 
-  .testimonials-carousel, .testimonials-slider {
+  .testimonials-carousel,
+  .testimonials-slider {
     overflow: hidden;
   }
 
@@ -711,13 +705,12 @@ section {
         width: 80%;
       }
     }
-
   }
 
   .swiper-pagination {
     margin-top: 20px;
     position: relative;
-  
+
     .swiper-pagination-bullet {
       width: 12px;
       height: 12px;
@@ -725,14 +718,12 @@ section {
       opacity: 1;
       border: 1px solid $primary;
     }
-  
+
     .swiper-pagination-bullet-active {
       background-color: $primary;
     }
   }
-
 }
-
 
 /* Team Section
 --------------------------------*/
@@ -766,9 +757,9 @@ section {
 
     &:hover {
       .member-info {
-        background: rgba(0, 0, 0, 0.70);
+        background: rgba(0, 0, 0, 0.7);
         opacity: 1;
-        transition:  0.4s;
+        transition: 0.4s;
       }
 
       .member-info-content {
@@ -799,7 +790,6 @@ section {
         &:hover {
           color: $primary;
         }
-
       }
 
       i {
@@ -809,7 +799,6 @@ section {
     }
   }
 }
-
 
 /* Contact Section
 --------------------------------*/
@@ -826,7 +815,8 @@ section {
       color: $primary;
     }
 
-    address, p {
+    address,
+    p {
       margin-bottom: 0;
       color: #000;
     }
@@ -847,7 +837,9 @@ section {
     }
   }
 
-  .contact-address, .contact-phone, .contact-email {
+  .contact-address,
+  .contact-phone,
+  .contact-email {
     margin-bottom: 20px;
     @media (min-width: 768px) {
       padding: 20px 0;
@@ -862,11 +854,10 @@ section {
   }
 
   .php-email-form {
-
     box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
     padding: 30px;
-    background: #fff; 
-    
+    background: #fff;
+
     .error-message {
       display: none;
       color: #fff;
@@ -878,7 +869,7 @@ section {
         margin-top: 25px;
       }
     }
-    
+
     .sent-message {
       display: none;
       color: #fff;
@@ -887,15 +878,15 @@ section {
       padding: 15px;
       font-weight: 600;
     }
-  
+
     .loading {
       display: none;
       background: #fff;
       text-align: center;
       padding: 15px;
-  
+
       &:before {
-        content: "";
+        content: '';
         display: inline-block;
         border-radius: 50%;
         width: 24px;
@@ -905,14 +896,14 @@ section {
         border-top-color: #eee;
         animation: animate-loading 1s linear infinite;
       }
-  
     }
 
     .form-group {
       margin-bottom: 20px;
     }
 
-    input, textarea {
+    input,
+    textarea {
       padding: 10px 14px;
       border-radius: 0;
       box-shadow: none;
@@ -922,7 +913,7 @@ section {
       }
     }
 
-    button[type="submit"] {
+    button[type='submit'] {
       background: $primary;
       border: 0;
       padding: 10px 30px;
@@ -933,11 +924,14 @@ section {
         background: darken($primary, 10%);
       }
     }
-
   }
-  
+
   @keyframes animate-loading {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
   }
 }

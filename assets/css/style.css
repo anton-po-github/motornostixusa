@@ -132,6 +132,7 @@ h6 {
   z-index: 997;
   background: rgba(0, 0, 0, 0.9);
   height: 80px;
+  border-bottom: 1px solid #FFE950;
 }
 
 #header.header-transparent {
@@ -150,8 +151,9 @@ h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
-  padding-left: 10px;
-  border-left: 4px solid #FFE950;
+  padding-bottom: 18px;
+  padding-left: 5px;
+  /*  border-left: 4px solid #FFE950; */
 }
 
 #header .logo a {
@@ -159,7 +161,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 45px;
 }
 
 @media (max-width: 992px) {
@@ -172,8 +174,8 @@ h6 {
 # variables styles
 --------------------------------------------------------------*/
 
-.w-250 {
-  width: 250px !important;
+.w-205 {
+  width: 205px !important;
 }
 
 .color-white {
@@ -348,7 +350,7 @@ h6 {
   position: absolute;
   top: 55px;
   right: 15px;
-  bottom: 15px;
+  /*  bottom: 15px; */
   left: 15px;
   padding: 10px 0;
   background-color: #fff;
@@ -366,7 +368,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #18d26e;
+  color: #FFE950 !important;
 }
 
 .navbar-mobile .getstarted,
@@ -401,7 +403,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #18d26e;
+  color: #FFE950;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -670,7 +672,7 @@ section {
 }
 
 #featured-services .box {
-  padding: 30px 20px;
+  padding: 20px;
 }
 
 #featured-services .box-bg {
@@ -710,7 +712,7 @@ section {
 #about {
   background: url("../img/about/about-bg.jpg") center top no-repeat fixed;
   background-size: cover;
-  padding: 30px 0 40px 0;
+  padding: 30px 0 10px 0;
   position: relative;
 }
 
@@ -730,11 +732,15 @@ section {
   z-index: 10;
 }
 
+.aos-init {
+  margin-bottom: 15px;
+}
+
 #about .about-col {
   background: #fff;
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 #about .about-col .img {
@@ -862,6 +868,9 @@ section {
 
 #installation p {
   color: #fff;
+  margin-bottom: 10px !important;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #installation .cta-btn {
@@ -875,13 +884,14 @@ section {
   border-radius: 25px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #FFE950;
-  color: #FFE950;
+  background: #FFE950;
+  /* border: 2px solid #FFE950; */
+  color: #000;
 }
 
 #installation .cta-btn:hover {
-  background: #FFE950;
-  border: 2px solid #FFE950;
+  background: #edd951;
+  /*   border: 2px solid #FFE950; */
   color: #000;
 }
 
@@ -2066,7 +2076,8 @@ section {
 
 #footer .footer-top {
   background: #111;
-  padding: 30px 0 30px 0;
+  padding: 30px 0 20px 0;
+  border-bottom: 1px solid #FFE950;
 }
 
 #footer .footer-top .footer-info {
@@ -2095,7 +2106,7 @@ section {
 #footer .footer-top .social-links a {
   display: inline-block;
   background: #333;
-  color: #eee;
+  color: #FFE950;
   line-height: 1;
   margin-right: 4px;
   border-radius: 50%;
@@ -2113,8 +2124,8 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #18d26e;
-  color: #fff;
+  background: #edd951;
+  color: #000;
 }
 
 #footer .footer-top h4 {
@@ -2174,7 +2185,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #18d26e;
+  color: #edd951;
 }
 
 #footer .footer-top .footer-contact {
@@ -2225,6 +2236,15 @@ section {
 /*--------------------------------------------------------------
 # Scrollbar
 --------------------------------------------------------------*/
+
+
+.mr-15 {
+  margin-right: 15px !important;
+}
+
+.pt-12 {
+  padding-top: 12px !important;
+}
 
 ::-webkit-scrollbar {
   width: 7px;
