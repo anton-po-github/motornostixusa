@@ -296,11 +296,11 @@ h6 {
 }
 
 @media (max-width: 2000px) {
-  .navbar .dropdown-how-to .dropdown-dropdown-how-to ul {
+  .navbar .dropdown-how-to-mount-a-vertical-sensor .dropdown-dropdown-how-to-mount-a-vertical-sensor ul {
     left: -90%;
   }
 
-  .navbar .dropdown-how-to .dropdown-how-to:hover>ul {
+  .navbar .dropdown-how-to-mount-a-vertical-sensor .dropdown-how-to-mount-a-vertical-sensor:hover>ul {
     left: -125%;
   }
 }
@@ -803,12 +803,12 @@ section {
 }
 
 
-#how-to {
+#how-to-mount-a-vertical-sensor {
   background-color: #FBFBFB;
   padding-top: 110px;
 }
 
-#how-to .how-to-col h2 {
+#how-to-mount-a-vertical-sensor .how-to-mount-a-vertical-sensor-col h2 {
   color: #000;
   text-align: center;
   font-weight: 700;
@@ -817,7 +817,7 @@ section {
   margin: 15px 0 12px 0;
 }
 
-#how-to .how-to-col h2 a {
+#how-to-mount-a-vertical-sensor .how-to-mount-a-vertical-sensor-col h2 a {
   color: #000;
 }
 
@@ -886,7 +886,7 @@ section {
 /* Installation Section
 --------------------------------*/
 #installation {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/installation/installation-bg.jpg) fixed center center;
   background-size: cover;
   padding: 30px 0;
 }
@@ -961,7 +961,7 @@ section {
 /* Facts Section
 --------------------------------*/
 #facts {
-  background: url("../img/facts-bg.jpg") center top no-repeat fixed;
+  background: url("../img/facts/facts-bg.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 120px 0 120px 0;
   position: relative;
@@ -2268,6 +2268,9 @@ section {
 # Scrollbar
 --------------------------------------------------------------*/
 
+.cursor-pointer {
+  cursor: pointer !important;
+}
 
 .mr-15 {
   margin-right: 15px !important;
