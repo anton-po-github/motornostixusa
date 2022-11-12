@@ -69,18 +69,22 @@
    * Scrolls to an element with header offset
    */
   const scrollto = (el) => {
-    let header = select('#header');
-    let offset = header.offsetHeight;
+    setTimeout(() => {
+      //  this setTimeout is needed in order to have the correct TOP padding for the section when we make the transition through the [scrollto], for example for [index.html#about]
+      let header = select('#header');
+      let offset = header.offsetHeight;
 
-    if (!header.classList.contains('header-scrolled')) {
-      offset -= 20;
-    }
+      if (!header.classList.contains('header-scrolled')) {
+        offset -= 20;
+      }
 
-    let elementPos = select(el).offsetTop;
-    window.scrollTo({
-      top: elementPos - offset,
-      behavior: 'smooth',
-    });
+      let elementPos = select(el).offsetTop;
+
+      window.scrollTo({
+        top: elementPos - offset,
+        behavior: 'smooth',
+      });
+    }, 400);
   };
 
   /**
