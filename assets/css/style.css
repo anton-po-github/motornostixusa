@@ -883,6 +883,10 @@ section {
   margin-bottom: 0;
 }
 
+#services .description a {
+  color: #FFE75F;
+}
+
 /* Installation Section
 --------------------------------*/
 #installation {
@@ -2267,6 +2271,13 @@ section {
 /*--------------------------------------------------------------
 # Scrollbar
 --------------------------------------------------------------*/
+
+/* Modal */
+
+#health-report-modal img {
+  max-width: 100%;
+  height: auto;
+}
 
 .cursor-pointer {
   cursor: pointer !important;
