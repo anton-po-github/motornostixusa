@@ -2279,6 +2279,11 @@ section {
   height: auto;
 }
 
+#performance-report-modal img {
+  max-width: 100%;
+  height: auto;
+}
+
 .cursor-pointer {
   cursor: pointer !important;
 }

@@ -600,11 +600,19 @@
               <h4 class="title"><a href="">Reporting</a></h4>
               <p class="description">
                 • We provide you with two daily reports for each site – the
-                performance report covers exactly that – how well did the site
-                perform against expectations for the last 24h window (defined by
-                you)? This information includes runtime, idle time, motor
-                utilization, thermal capacity, production output and electrical
-                efficiency. <br />
+
+                <a
+                  class="cursor-pointer"
+                  data-toggle="modal"
+                  data-target="#performance-report-modal"
+                  >performance report</a
+                >
+
+                covers exactly that – how well did the site perform against
+                expectations for the last 24h window (defined by you)? This
+                information includes runtime, idle time, motor utilization,
+                thermal capacity, production output and electrical efficiency.
+                <br />
                 • The
                 <a
                   class="cursor-pointer"
@@ -1300,8 +1308,8 @@
     <!-- Uncomment below i you want to use a preloader -->
     <!-- <div id="preloader"></div> -->
 
-    <!-- Modal health report -->
-    <div class="modal fade" id="health-report-modal" role="dialog">
+    <!-- Modal performance report -->
+    <div class="modal fade" id="performance-report-modal" role="dialog">
       <div class="modal-dialog modal-lg modal-dialog-centered">
         <!-- Modal content-->
         <div class="modal-content">
@@ -1316,33 +1324,18 @@
               <div class="row">
                 <div class="col-12">
                   <img
-                    src="./assets/img/health-report-modal/first-photo.png"
+                    src="./assets/img/performance-report-modal/first-photo.png"
                     alt=""
                   />
                 </div>
 
                 <div class="col-12">
                   <img
-                    src="./assets/img/health-report-modal/second-photo.png"
+                    src="./assets/img/performance-report-modal/second-photo.png"
                     alt=""
                   />
                 </div>
                 -->
-              </div>
-
-              <div class="row">
-                <div class="col-12">
-                  <img
-                    src="./assets/img/health-report-modal/third-photo.png"
-                    alt=""
-                  />
-                </div>
-                <div class="col-12">
-                  <img
-                    src="./assets/img/health-report-modal/fourth-photo.png"
-                    alt=""
-                  />
-                </div>
               </div>
             </div>
           </div>
@@ -1352,6 +1345,45 @@
               Close
             </button>
           </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal health report -->
+    <div class="modal fade" id="health-report-modal" role="dialog">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <!-- <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+              <h4 class="modal-title">Modal Header</h4>
+            </div> -->
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+                  <img
+                    src="./assets/img/health-report-modal/first-photo.png"
+                    alt=""
+                  />
+                </div>
+                <div class="col-12">
+                  <img
+                    src="./assets/img/health-report-modal/second-photo.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--  <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">
+                Close
+              </button>
+            </div> -->
         </div>
       </div>
     </div>
