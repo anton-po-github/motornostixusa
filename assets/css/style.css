@@ -802,11 +802,16 @@ section {
   margin: 40px 0 12px 0;
 }
 
+#how-to-mount-a-vertical-sensor .img-fluid {
+  border-radius: 15px;
+  box-shadow: 5px 5px 4px rgb(0 0 0 / 30%);
+}
 
 #how-to-mount-a-vertical-sensor {
   background-color: #FBFBFB;
   padding-top: 110px;
 }
+
 
 #how-to-mount-a-vertical-sensor .how-to-mount-a-vertical-sensor-col h2 {
   color: #000;
