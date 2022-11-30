@@ -812,6 +812,7 @@ section {
   padding-top: 110px;
 }
 
+
 #how-to-mount-a-vertical-sensor .how-to-mount-a-vertical-sensor-col h2 {
   color: #000;
   text-align: center;
@@ -2338,4 +2339,8 @@ section {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.yellow-bottom-border {
+  border-bottom: 1px solid #ffe75f
 }
