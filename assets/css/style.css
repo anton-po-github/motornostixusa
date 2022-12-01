@@ -2381,3 +2381,10 @@ section {
 .text-transform-none {
   text-transform: none !important
 }
+
+.carousel .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #ffe75f;
+}
