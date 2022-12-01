@@ -163,6 +163,7 @@ h6 {
 #header .logo img {
   margin-top: 17px;
   max-height: 75px;
+  cursor: pointer;
 }
 
 @media (max-width: 992px) {
@@ -296,7 +297,7 @@ h6 {
   visibility: visible;
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 4000px) {
   .navbar .dropdown-how-to-mount-a-vertical-sensor .dropdown-dropdown-how-to-mount-a-vertical-sensor ul {
     left: -90%;
   }
