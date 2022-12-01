@@ -2350,3 +2350,18 @@ section {
 .default-color-text:hover {
   color: #ffe75f;
 }
+
+.no-photo {
+  display: table;
+  background: #eee;
+  /* optional */
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  /* optional */
+}
+
+.no-photo> :first-child {
+  display: table-cell;
+  vertical-align: middle;
+}
