@@ -266,7 +266,7 @@ h6 {
 .navbar .dropdown ul a {
   padding: 10px 20px;
   text-transform: none;
-  color: #fff;
+  /* color: #fff; */
 }
 
 .navbar .dropdown ul a i {
@@ -360,6 +360,7 @@ h6 {
 }
 
 .navbar-mobile ul {
+  border-radius: 10px;
   display: block;
   position: absolute;
   top: 55px;
@@ -367,7 +368,7 @@ h6 {
   /*  bottom: 15px; */
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #828282;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -398,7 +399,7 @@ h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background: #828282;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -422,6 +423,7 @@ h6 {
 
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
+  border: 1px solid #303030;
 }
 
 /*--------------------------------------------------------------
