@@ -2377,3 +2377,7 @@ section {
   display: table-cell;
   vertical-align: middle;
 }
+
+.text-transform-none {
+  text-transform: none !important
+}
