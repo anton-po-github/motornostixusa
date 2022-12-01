@@ -302,7 +302,6 @@ h6 {
     left: -90%;
   }
 
-
   .navbar .dropdown-how-to-mount-a-vertical-sensor .dropdown-how-to-mount-a-vertical-sensor:hover>ul {
     left: -125%;
   }
@@ -2342,10 +2341,6 @@ section {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
-
-.yellow-bottom-border {
-  border-bottom: 1px solid #ffe75f
 }
 
 .default-color-text {
