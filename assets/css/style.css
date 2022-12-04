@@ -176,8 +176,8 @@ h6 {
 # variables styles
 --------------------------------------------------------------*/
 
-.w-260 {
-  width: 260px !important;
+.w-237 {
+  width: 237px !important;
 }
 
 .color-white {
@@ -755,7 +755,7 @@ section {
 
 #about .about-col {
   background: #fff;
-  border-radius: 0 0 4px 4px;
+  border-radius: 15px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   padding-bottom: 20px;
 }
@@ -765,7 +765,7 @@ section {
 }
 
 #about .about-col .img img {
-  border-radius: 4px 4px 0 0;
+  border-radius: 15px 15px 0 0;
 }
 
 #about .about-col .icon {
@@ -2398,5 +2398,4 @@ section {
   font-weight: bold;
   font-style: italic;
   font-size: 12px !important;
-  margin-left: 20px;
 }
