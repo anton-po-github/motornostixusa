@@ -176,8 +176,8 @@ h6 {
 # variables styles
 --------------------------------------------------------------*/
 
-.w-205 {
-  width: 205px !important;
+.w-260 {
+  width: 260px !important;
 }
 
 .color-white {
@@ -2387,4 +2387,11 @@ section {
   height: 10px;
   border-radius: 100%;
   background-color: #ffe75f;
+}
+
+.text-predict-performance {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 12px !important;
+  margin-left: 20px;
 }
