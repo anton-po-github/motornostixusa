@@ -67,6 +67,10 @@
   border-bottom: 2px solid #fff !important;
 }
 
+.border-top-2px-white {
+  border-top: 2px solid #fff !important;
+}
+
 /* Like Bootstrap style */
 
 /* Scrollbar style */
