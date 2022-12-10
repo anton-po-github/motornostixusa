@@ -409,7 +409,7 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+#home {
   width: 100%;
   height: 100vh;
   background: #000;
@@ -418,15 +418,15 @@ h6 {
 }
 
 @media (max-height: 500px) {
-  #hero {
+  #home {
     height: 150vh;
   }
 }
 
-#hero .carousel,
-#hero .carousel-inner,
-#hero .carousel-item,
-#hero .carousel-item::before {
+#home .carousel,
+#home .carousel-inner,
+#home .carousel-item,
+#home .carousel-item::before {
   position: absolute;
   top: 0;
   right: 0;
@@ -434,18 +434,18 @@ h6 {
   bottom: 0;
 }
 
-#hero .carousel-item {
+#home .carousel-item {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-#hero .carousel-item::before {
+#home .carousel-item::before {
   content: "";
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-#hero .carousel-container {
+#home .carousel-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -456,11 +456,11 @@ h6 {
   right: 50px;
 }
 
-#hero .container {
+#home .container {
   text-align: center;
 }
 
-#hero h2 {
+#home h2 {
   color: #fff;
   margin-bottom: 30px;
   font-size: 48px;
@@ -468,77 +468,77 @@ h6 {
 }
 
 @media (max-width: 768px) {
-  #hero h2 {
+  #home h2 {
     font-size: 28px;
   }
 }
 
-#hero p {
+#home p {
   width: 80%;
   margin: 0 auto 30px auto;
   color: #fff;
 }
 
 @media (min-width: 1024px) {
-  #hero p {
+  #home p {
     width: 63%;
   }
 }
 
-#hero .carousel-fade {
+#home .carousel-fade {
   overflow: hidden;
 }
 
-#hero .carousel-fade .carousel-inner .carousel-item {
+#home .carousel-fade .carousel-inner .carousel-item {
   transition-property: opacity;
 }
 
-#hero .carousel-fade .carousel-inner .carousel-item,
-#hero .carousel-fade .carousel-inner .active.carousel-item-start,
-#hero .carousel-fade .carousel-inner .active.carousel-item-end {
+#home .carousel-fade .carousel-inner .carousel-item,
+#home .carousel-fade .carousel-inner .active.carousel-item-start,
+#home .carousel-fade .carousel-inner .active.carousel-item-end {
   opacity: 0;
 }
 
-#hero .carousel-fade .carousel-inner .active,
-#hero .carousel-fade .carousel-inner .carousel-item-next.carousel-item-start,
-#hero .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-end {
+#home .carousel-fade .carousel-inner .active,
+#home .carousel-fade .carousel-inner .carousel-item-next.carousel-item-start,
+#home .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-end {
   opacity: 1;
   transition: 0.5s;
 }
 
-#hero .carousel-fade .carousel-inner .carousel-item-next,
-#hero .carousel-fade .carousel-inner .carousel-item-prev,
-#hero .carousel-fade .carousel-inner .active.carousel-item-start,
-#hero .carousel-fade .carousel-inner .active.carousel-item-end {
+#home .carousel-fade .carousel-inner .carousel-item-next,
+#home .carousel-fade .carousel-inner .carousel-item-prev,
+#home .carousel-fade .carousel-inner .active.carousel-item-start,
+#home .carousel-fade .carousel-inner .active.carousel-item-end {
   left: 0;
   transform: translate3d(0, 0, 0);
 }
 
-#hero .carousel-control-prev,
-#hero .carousel-control-next {
+#home .carousel-control-prev,
+#home .carousel-control-next {
   width: 10%;
 }
 
 @media (min-width: 1024px) {
 
-  #hero .carousel-control-prev,
-  #hero .carousel-control-next {
+  #home .carousel-control-prev,
+  #home .carousel-control-next {
     width: 5%;
   }
 }
 
-#hero .carousel-control-next-icon,
-#hero .carousel-control-prev-icon {
+#home .carousel-control-next-icon,
+#home .carousel-control-prev-icon {
   background: none;
   font-size: 32px;
   line-height: 1;
 }
 
-#hero .carousel-indicators li {
+#home .carousel-indicators li {
   cursor: pointer;
 }
 
-#hero .btn-get-started {
+#home .btn-get-started {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -552,7 +552,7 @@ h6 {
   background: #FFE950;
 }
 
-#hero .btn-get-started:hover {
+#home .btn-get-started:hover {
   background: #edd951;
   color: #FFE950;
   color: #000;
@@ -886,7 +886,7 @@ section {
 /* Installation Section
 --------------------------------*/
 #installation {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/installation/installation-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/installation/installation_bg.jpg) fixed center center;
   background-size: cover;
   padding: 30px 0;
 }
@@ -961,7 +961,7 @@ section {
 /* Facts Section
 --------------------------------*/
 #facts {
-  background: url("../img/facts/facts-bg2.jpg") center top no-repeat fixed;
+  background: url("../img/facts/facts_bg_pic_2.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 120px 0 120px 0;
   position: relative;
