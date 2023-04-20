@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #18d26e;
+  /* color: #18d26e; */
   transition: 0.5s;
   text-decoration: none;
 }
@@ -23,7 +23,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #18d36e;
+  /* color: #18d36e; */
   outline: none;
   text-decoration: none;
 }
@@ -786,6 +786,27 @@ section {
   font-size: 20px;
   padding: 0;
   margin: 40px 0 12px 0;
+}
+
+.download-mobile-app {
+  padding-top: 110px;
+}
+
+.download-mobile-app .apple-photo {
+  width: 200px;
+  border-radius: 25px;
+}
+
+.download-mobile-app .apple-store-icon {
+  width: 300px;
+  border-radius: 25px;
+}
+
+.download-mobile-app .mobile-app-container {
+  padding-bottom: 45px;
+  padding-top: 25px;
+  border-radius: 10px;
+  background-color: #F2F2F2;
 }
 
 .support-how-to-mount .img-fluid {
