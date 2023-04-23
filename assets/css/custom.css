@@ -35,6 +35,14 @@
   cursor: pointer !important;
 }
 
+.bg-color-support-how-to-mount {
+  background-color: #303030;
+}
+
+.h-110 {
+  height: 110px !important;
+}
+
 .mr-15 {
   margin-right: 15px !important;
 }
