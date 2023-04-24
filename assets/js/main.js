@@ -98,7 +98,7 @@
       }
     };
     window.addEventListener('load', headerScrolled);
-    onscroll(document, headerScrolled); 
+    onscroll(document, headerScrolled);
   }
 
   /**
@@ -346,13 +346,14 @@
   });
 })();
 
-
 const flickerDownloadNew = () => {
   element = document.getElementById('download-new');
 
   if (element) {
-    element.animate([{opacity:0.5},{opacity:1}],{duration:2000,iterations:30})
+    element.animate([{ opacity: 0.5 }, { opacity: 1 }], {
+      duration: 2000,
+      iterations: 30,
+    });
   }
-
 };
-flickerDownloadNew()
+flickerDownloadNew();
