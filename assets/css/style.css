@@ -788,6 +788,37 @@ section {
   margin: 40px 0 12px 0;
 }
 
+.page-not-found-container .page-not-found {
+  min-height: 517px;
+  background-color: #F2F2F2;
+  margin-bottom: 30px;
+}
+
+.page-not-found-container .page-not-found h4 {
+  margin-top: 30px;
+  font-size: 118px;
+}
+
+.page-not-found-container .page-not-found .page-not-found-text {
+  font-size: 24px;
+  display: inline-block;
+  margin-top: 100px;
+}
+
+.page-not-found-container .page-not-found .page-not-found-back-to-home {
+  margin-top: 100px;
+  width: 200px;
+  background-color: #FFE950;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 5px;
+}
+
+.page-not-found-container .page-not-found .page-not-found-back-to-home a {
+  color: #000;
+  font-weight: bold;  
+}
+
 .download-mobile-app .apple-photo {
   width: 200px;
   border-radius: 25px;
