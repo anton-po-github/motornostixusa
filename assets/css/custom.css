@@ -31,6 +31,10 @@
   text-transform: none !important
 }
 
+.w-150 {
+  width: 150px;
+}
+
 .cursor-pointer {
   cursor: pointer !important;
 }
