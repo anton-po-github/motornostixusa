@@ -286,6 +286,10 @@ h6 {
   .navbar .dropdown-how-tos .dropdown-how-tos-ul {
     left: -150% !important;
   }
+
+  .navbar .dropdown-how-tos .dropdown-how-tos-concentrator-board-ul {
+    left: -125% !important;
+  }
 }
 
 
