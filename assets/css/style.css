@@ -279,12 +279,12 @@ h6 {
 }
 
 @media (max-width: 4000px) {
-  .navbar .dropdown-how-to-mount .dropdown-dropdown-how-to-mount ul {
-    left: -90%;
+  .navbar .dropdown-how-to-mount .dropdown-how-to-mount-ul {
+    left: -15%;
   }
 
-  .navbar .dropdown-how-to-mount .dropdown-how-to-mount:hover>ul {
-    left: -125%;
+  .navbar .dropdown-how-tos .dropdown-how-tos-ul {
+    left: -150% !important;
   }
 }
 
@@ -816,7 +816,7 @@ section {
 
 .page-not-found-container .page-not-found .page-not-found-back-to-home a {
   color: #000;
-  font-weight: bold;  
+  font-weight: bold;
 }
 
 .download-mobile-app .apple-photo {

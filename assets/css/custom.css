@@ -8,6 +8,7 @@
   max-width: 100%;
   height: auto;
 }
+
 /* Modal */
 
 /* Like Bootstrap style */
@@ -51,6 +52,10 @@
 
 .mr-15 {
   margin-right: 15px !important;
+}
+
+.mb-15 {
+  margin-bottom: 15px !important;
 }
 
 .pt-12 {
