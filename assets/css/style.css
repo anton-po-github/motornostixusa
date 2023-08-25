@@ -710,7 +710,7 @@ section {
 /* About Us Section
 --------------------------------*/
 #about {
-  /* background: url("../img/about/about-bg.jpg") center top no-repeat fixed; */
+  /* background: url("../images/about/about-bg.jpg") center top no-repeat fixed; */
   background-size: cover;
   padding: 30px 0 10px 0;
   position: relative;
@@ -941,7 +941,7 @@ section {
 /* Installation Section
 --------------------------------*/
 #installation {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/installation/installation_bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../images/installation/installation_bg.jpg) fixed center center;
   background-size: cover;
   padding: 30px 0;
 }
@@ -1016,7 +1016,7 @@ section {
 /* Facts Section
 --------------------------------*/
 #facts {
-  background: url("../img/facts/facts_bg_pic_2.jpg") center top no-repeat fixed;
+  background: url("../images/facts/facts_bg_pic_2.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 120px 0 120px 0;
   position: relative;
