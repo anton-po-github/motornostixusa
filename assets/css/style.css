@@ -280,15 +280,15 @@ h6 {
 
 @media (max-width: 4000px) {
   .navbar .dropdown-how-to-mount .dropdown-how-to-mount-ul {
-    left: -15%;
+    left: 10%;
   }
 
   .navbar .dropdown-how-tos .dropdown-how-tos-ul {
-    left: -150% !important;
+    left: -175% !important;
   }
 
   .navbar .dropdown-how-tos .dropdown-how-tos-concentrator-board-ul {
-    left: -125% !important;
+    left: -147% !important;
   }
 }
 
