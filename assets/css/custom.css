@@ -78,6 +78,18 @@
   padding-left: 0 !important;
 }
 
+.green-text {
+  color: #5D962B;
+}
+
+.yellow-text {
+  color: #F3EC56;
+}
+
+.red-text {
+  color: #E60408;
+}
+
 .text-color-white {
   color: #fff !important;
 }
