@@ -193,4 +193,9 @@
   font-size: 12px !important;
 }
 
+.disabled-nav-link {
+  color: #adadad !important;
+  cursor: not-allowed;
+}
+
 /* Other styles */
