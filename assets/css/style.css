@@ -284,7 +284,24 @@ h6 {
   }
 
   .navbar .dropdown-how-tos .dropdown-how-tos-ul {
-    left: -175% !important;
+    left: -100% !important;
+  }
+
+
+  .navbar .dropdown-how-tos .dropdown-how-tos-ul-cabling {
+    left: -198.5% !important;
+  }
+
+  .navbar .dropdown-how-tos .dropdown-how-tos-ul-sensor {
+    left: -136% !important;
+  }
+
+  .navbar .dropdown-how-tos .dropdown-how-tos-ul-tachometer {
+    left: -155% !important;
+  }
+
+  .navbar .dropdown-how-tos .dropdown-how-tos-ul-junction-boxes {
+    left: -174% !important;
   }
 
   .navbar .dropdown-how-tos .dropdown-how-tos-concentrator-board-ul {

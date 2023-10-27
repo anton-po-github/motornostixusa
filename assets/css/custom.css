@@ -30,6 +30,10 @@
   text-transform: none !important
 }
 
+.width-inherit {
+  width: inherit !important;
+}
+
 .w-150 {
   width: 150px;
 }
@@ -78,19 +82,19 @@
   padding-left: 0 !important;
 }
 
-.green-text {
+.text-green {
   color: #5D962B;
 }
 
-.yellow-text {
+.text-yellow {
   color: #F3EC56;
 }
 
-.red-text {
+.text-red {
   color: #E60408;
 }
 
-.text-color-white {
+.text-white-custom {
   color: #fff !important;
 }
 
@@ -196,6 +200,15 @@
 .disabled-nav-link {
   color: #adadad !important;
   cursor: not-allowed;
+}
+
+.disable-text-selection {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /* Other styles */
