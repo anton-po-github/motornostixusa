@@ -105,7 +105,7 @@
 
                       <li class="dropdown dropdown-how-tos">
                         <a class="nav-link">
-                          <span class="cursor-pointer"> Cabling </span>
+                          <span class="cursor-pointer"> Cables / Cabling </span>
                           <i class="bi bi-chevron-right"></i>
                         </a>
 
@@ -130,6 +130,51 @@
                         </ul>
                       </li>
 
+                      <li class="dropdown dropdown-how-tos">
+                        <a class="nav-link">
+                          <span class="cursor-pointer"> Concentrator Box[es] </span>
+                          <i class="bi bi-chevron-right"></i>
+                        </a>
+                      </li>
+
+                      <li class="dropdown dropdown-how-tos">
+                        <a class="nav-link">
+                          <span class="cursor-pointer"> Junction Box[es] </span>
+                          <i class="bi bi-chevron-right"></i>
+                        </a>
+                        <ul class="dropdown-how-tos-ul-junction-boxes">
+                          <li>
+                            <a class="nav-link"
+                              href="../../../../html/support/how-tos/junction-boxes/mounting-mill-sensor-junction-boxes.html">Mounting
+                              mill
+                              sensor junction boxes</a>
+                          </li>
+
+
+                          <li>
+                            <a class="nav-link"
+                              href="../../../../html/support/how-tos/junction-boxes/mounting-concentrator-board-junction-boxes.html">Mounting
+                              concentrator
+                              board junction boxes</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="dropdown dropdown-how-tos">
+                        <a class="nav-link">
+                          <span class="cursor-pointer"> PC Enclosure </span>
+                          <i class="bi bi-chevron-right"></i>
+                        </a>
+                      </li>
+
+                      <li class="dropdown dropdown-how-tos">
+                        <a class="nav-link">
+                          <span class="cursor-pointer"> System Upgrade </span>
+                          <i class="bi bi-chevron-right"></i>
+                        </a>
+                      </li>
+
+                      
                       <li class="dropdown dropdown-how-tos">
                         <a class="nav-link">
                           <span class="cursor-pointer"> Sensors </span>
@@ -175,6 +220,13 @@
                         </ul>
                       </li>
 
+                      <li>
+                        <a class="nav-link" data-toggle="modal" data-target="#system-overview-modal">
+                          <span class="cursor-pointer"> System Wiring Schematics </span>
+                        </a>
+                      </li>
+
+                      
                       <li class="dropdown dropdown-how-tos">
                         <a class="nav-link">
                           <span class="cursor-pointer"> Tachometer </span>
@@ -189,36 +241,13 @@
                               & Maintenance</a>
                           </li>
 
-                        </ul>
-                      </li>
-
-                      <li class="dropdown dropdown-how-tos">
-                        <a class="nav-link">
-                          <span class="cursor-pointer"> Junction Boxes </span>
-                          <i class="bi bi-chevron-right"></i>
-                        </a>
-                        <ul class="dropdown-how-tos-ul-junction-boxes">
                           <li>
-                            <a class="nav-link"
-                              href="../../../../html/support/how-tos/junction-boxes/mounting-mill-sensor-junction-boxes.html">Mounting
-                              mill
-                              sensor junction boxes</a>
+                            <a class="nav-link cursor-pointer" data-toggle="modal"
+                              data-target="#diagnostics-faulty-tachometer-modal">
+                              Diagnostics for a faulty tachometer</a>
                           </li>
 
-
-                          <li>
-                            <a class="nav-link"
-                              href="../../../../html/support/how-tos/junction-boxes/mounting-concentrator-board-junction-boxes.html">Mounting
-                              concentrator
-                              board junction boxes</a>
-                          </li>
                         </ul>
-                      </li>
-
-                      <li>
-                        <a class="nav-link" data-toggle="modal" data-target="#system-overview-modal">
-                          <span class="cursor-pointer"> System Wiring Schematic </span>
-                        </a>
                       </li>
                     </ul>
                   </li>
@@ -503,8 +532,33 @@
         <div class="modal-body">
           <div class="container-fluid">
             <div class="row">
+              <div class="col-12 border-bottom-2px-black">
+                <img class="width-inherit"
+                  src="../../../../assets/images/modals/system-overview/system_wiring_schematic_pic_1.png" alt="" />
+              </div>
+
               <div class="col-12">
-                <img class="width-inherit" src="../../../../assets/images/modals/system-overview/system-overview.png"
+                <img class="width-inherit"
+                  src="../../../../assets/images/modals/system-overview/system_wiring_schematic_pic_2.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Modal diagnostics faulty tachometer -->
+   <div class="modal fade" id="diagnostics-faulty-tachometer-modal" role="dialog">
+    <div class="modal-dialog modal-xl modal-dialog-centered disable-text-selection">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12">
+                <img class="width-inherit"
+                  src="../../../../assets/images/modals/diagnostics-faulty-tachometer/diagnostics_faulty_tachometer_pic_1.png"
                   alt="" />
               </div>
             </div>
