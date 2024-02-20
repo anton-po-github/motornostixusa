@@ -50,7 +50,7 @@ h6 {
 .hide-container-cookies {
   text-align: center;
   font-weight: 800;
-  opacity: 0;
+  display: none;
   padding: 15px;
   position: fixed;
   left: 35px;
@@ -67,7 +67,7 @@ h6 {
 .show-container-cookies {
   text-align: center;
   font-weight: 800;
-  opacity: 1;
+  display: block;
   padding: 15px;
   position: fixed;
   left: 35px;
