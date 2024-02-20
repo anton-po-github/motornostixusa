@@ -372,16 +372,15 @@ flickerDownloadNew();
  } 
 
 const showHideContainerCookie = () => {
-  element = document.getElementById('container-cookies');
 
-  if (element && sessionStorage.getItem('container-cookies') == null) {
+  if (containerCookies && sessionStorage.getItem('container-cookies') == null) {
 
-    element.setAttribute('class', 'show-container-cookies');
+    containerCookies.setAttribute('class', 'show-container-cookies');
 
     sessionStorage.setItem('container-cookies', 'true');
 
     setTimeout(() => {
-      element.setAttribute('class', 'hide-container-cookies');
+      containerCookies.setAttribute('class', 'hide-container-cookies');
     }, 10000);  
   }
 };
