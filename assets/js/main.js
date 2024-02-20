@@ -381,10 +381,9 @@ const showHideContainerCookie = () => {
     sessionStorage.setItem('container-cookies', 'true');
 
     setTimeout(() => {
-
-    element.removeAttribute('class', 'hide-container-cookies');
-      }, 10000);  
-    }
+      element.setAttribute('class', 'hide-container-cookies');
+    }, 10000);  
+  }
 };
 
 showHideContainerCookie();
