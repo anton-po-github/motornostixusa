@@ -360,7 +360,6 @@ const flickerDownloadNew = () => {
 flickerDownloadNew();
 
 /* Cookie */ 
- 
   let containerCookies = document.getElementById('container-cookies');
   let closeCookiesBtn = document.getElementById('close-cookies');
 
