@@ -44,6 +44,7 @@
    * Navbar links active state on scroll
    */
   let navbarlinks = select('#navbar .scrollto', true);
+
   const navbarlinksActive = () => {
     let position = window.scrollY + 200;
     navbarlinks.forEach((navbarlink) => {
@@ -357,3 +358,37 @@ const flickerDownloadNew = () => {
   }
 };
 flickerDownloadNew();
+
+/* Cookie */ 
+ 
+  let containerCookies = document.getElementById('container-cookies');
+  let closeCookiesBtn = document.getElementById('close-cookies');
+
+  if (closeCookiesBtn) {
+      closeCookiesBtn.onclick = function() {
+
+      containerCookies.setAttribute('class', 'hide-container-cookies');
+
+    };
+ } 
+
+const showHideContainerCookie = () => {
+  element = document.getElementById('container-cookies');
+
+  if (element && sessionStorage.getItem('container-cookies') == null) {
+
+    element.setAttribute('class', 'show-container-cookies');
+
+    sessionStorage.setItem('container-cookies', 'true');
+
+    setTimeout(() => {
+
+    element.removeAttribute('class', 'hide-container-cookies');
+      }, 10000);  
+    }
+};
+
+showHideContainerCookie();
+
+  /* Cookie */ 
+

@@ -45,12 +45,64 @@ h6 {
   padding: 0;
 }
 
+/* cookies */
+
+.hide-container-cookies {
+  text-align: center;
+  font-weight: 800;
+  opacity: 0;
+  padding: 15px;
+  position: fixed;
+  left: 35px;
+  bottom: 15px;
+  z-index: 996;
+  background: #FFE950;
+  width: auto;
+  height: auto;
+  border-radius: 50px;
+  transition: all 0.4s;
+  margin-right: 65px;
+}
+
+.show-container-cookies {
+  text-align: center;
+  font-weight: 800;
+  opacity: 1;
+  padding: 15px;
+  position: fixed;
+  left: 35px;
+  bottom: 15px;
+  z-index: 996;
+  background: #FFE950;
+  width: auto;
+  height: auto;
+  border-radius: 50px;
+  transition: all 0.4s;
+  margin-right: 65px;
+}
+
+.close-cookies {
+  background: #FFE950;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 3px 20px;
+  color: #000;
+  transition: 0.4s;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.close-cookies:hover {
+  background: #edd951;
+}
+
+/* cookies */
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
-  visibility: hidden;
   opacity: 0;
   right: 15px;
   bottom: 15px;
