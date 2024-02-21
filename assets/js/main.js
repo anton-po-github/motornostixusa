@@ -382,6 +382,8 @@ const showHideContainerCookie = () => {
     setTimeout(() => {
       containerCookies.setAttribute('class', 'hide-container-cookies');
     }, 10000);  
+  } else {
+    containerCookies.setAttribute('class', 'hide-container-cookies');
   }
 };
 
